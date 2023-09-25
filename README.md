@@ -2,8 +2,8 @@
 
 1. when implement class method, const must be write again, while override/noexcept/explicit does not  
    `  
-   //header   
-   void React(const EvtSupplyBoxOverlap& e) override const;   
+   //header  
+   void React(const EvtSupplyBoxOverlap& e) override const;  
    //body  
    void StNaving::React(const EvtSupplyBoxOverlap& e) const  
    {  
